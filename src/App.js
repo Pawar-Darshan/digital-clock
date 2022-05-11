@@ -16,7 +16,7 @@ function App() {
   setInterval(UpdateTime, 1000);
   return (
     <div className="App">
-      <h1 className="OwnerName">It's Darshan's Digital Watch</h1>
+      <h1 className="OwnerName">It's Darshan's Digital Clock</h1>
       <h1 className='currentTime'>{curTime}</h1>
     </div>
   );
